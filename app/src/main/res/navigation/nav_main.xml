@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nooglers.health.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_mainIdeaFragment"
+            app:destination="@id/mainIdeaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainIdeaFragment"
+        android:name="com.nooglers.health.fragments.MainIdeaFragment"
+        android:label="fragment_main_idea"
+        tools:layout="@layout/fragment_main_idea" >
+        <action
+            android:id="@+id/action_mainIdeaFragment_to_treatmentFragment"
+            app:destination="@id/treatmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/treatmentFragment"
+        android:name="com.nooglers.health.fragments.TreatmentFragment"
+        android:label="fragment_treatment"
+        tools:layout="@layout/fragment_treatment" />
+
+
+</navigation>

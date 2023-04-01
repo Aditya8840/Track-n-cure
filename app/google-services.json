@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555060697638",
+    "project_id": "track--n-cure",
+    "storage_bucket": "track--n-cure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555060697638:android:3e7a77b6e5c9e0faa2e4e7",
+        "android_client_info": {
+          "package_name": "com.nooglers.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555060697638-qkqabclbeshnrfmpiusgj2jmqrtpvi7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3MDmEEcD2ZY2Tl8M12iYvQP3E1I3W8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555060697638-qkqabclbeshnrfmpiusgj2jmqrtpvi7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

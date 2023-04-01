@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/sex_education"
+        android:title="Sex Education"
+        android:icon="@drawable/ic_book"/>
+
+    <item android:id="@+id/tips"
+        android:title="Tip &amp; Info"
+        android:icon="@drawable/ic_idea"/>
+
+    <item android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/people"/>
+
+</menu>

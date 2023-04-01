@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Health</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="track">T<font color='#7CC5EE'>rack</font></string>
+    <string name="treat">T<font color='#7CC5EE'>reat</font></string>
+    <string name="triumph">T<font color='#7CC5EE'>riumph</font></string>
+    <string name="tracktreat">
+Protecting the public\'s health is a top priority for governments and organizations around the world, and technology plays a key role in achieving this goal. One way that technology can help is by using location data to track the spread of contagious diseases and alert individuals who may be at risk. In this article, we will explain how this process works and why it is important for public health.
+
+\n1. Location data is used to track the spread of contagious diseases
+\nWhen an individual is diagnosed with a contagious disease, such as COVID-19, their movements and interactions with other people can be traced using location data from their phone. This information can be used to create a timeline of their movements and identify other individuals who may have been exposed to the disease.
+
+\n2. Alerting individuals who may be at risk
+\nUsing the location data of individuals who have been diagnosed with a contagious disease, public health authorities can send alerts to other individuals who may have been in close proximity to them. These alerts can provide information about the disease, symptoms to watch out for, and instructions on how to get tested or seek medical help.
+
+\n3. Protecting individual privacy
+\nWhile location data can be a powerful tool for public health, it is important to protect individual privacy. Any data that is collected must be anonymized and aggregated to prevent the identification of individual users. Additionally, users must be given clear information about how their data is being used and the ability to opt out if they choose to do so.
+
+\n4. Why this is important for public health
+\nContagious diseases can spread quickly and have devastating effects on public health. By using location data to track the spread of these diseases and alert individuals who may be at risk, public health authorities can take proactive steps to slow the spread of the disease and reduce its impact on the community. This can include measures such as quarantining individuals who have been exposed to the disease, increasing testing capacity, and providing medical care to those who need it.
+
+\n5. Timeline tracking of diseases
+\nLocation data can also be used to track the spread of diseases over time. By analyzing the movement patterns of individuals who have been diagnosed with a disease, public health authorities can identify clusters of cases and track how the disease is spreading through the community. This information can be used to develop targeted public health interventions and prevent further spread of the disease.
+
+\nIn conclusion, using location data to track the spread of contagious diseases and alert individuals who may be at risk is an important tool for public health authorities. By using this technology responsibly and protecting individual privacy, we can help slow the spread of diseases and protect the health of our communities. It is important for individuals to understand the benefits of sharing their location data in these circumstances and to be aware of the measures in place to protect their privacy.</string>
+
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="new_account">Don\'t have an account? <u>Sign-Up</u></string>
+</resources>
