@@ -26,7 +26,7 @@ class SplashScreen : AppCompatActivity() {
 
             override fun onFinish() {
                 if(SharedPref(view.context).getUser() == "null"){
-                    val intent = Intent(applicationContext, AuthActivity::class.java)
+                    val intent = Intent(applicationContext, MainActivity::class.java)
                     startActivity(intent)
                     finish()
                 }else{

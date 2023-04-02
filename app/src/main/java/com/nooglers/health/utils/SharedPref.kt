@@ -1,13 +1,13 @@
 package com.nooglers.health.utils
 
 import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
+
 
 class SharedPref(context: Context) {
 
-    val prefs: SharedPreferences = context.getSharedPreferences(
-        "com.nooglers.health", Context.MODE_PRIVATE
-    )
+    val prefs = context.getSharedPreferences("Health", MODE_PRIVATE)
 
     fun logIn(email : String) {
         prefs.edit().putInt("loggedIn", 1)

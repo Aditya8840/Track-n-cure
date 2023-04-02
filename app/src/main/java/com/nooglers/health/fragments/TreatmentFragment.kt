@@ -64,19 +64,18 @@ class TreatmentFragment : HCFragment(R.layout.fragment_treatment) {
 
         treatmentBinding.submit.setOnClickListener {
             if(treatmentBinding.etDiseases.text.isNotEmpty()){
-                val bluetoothAdapter: BluetoothAdapter? = BluetoothAdapter.getDefaultAdapter()
-                val bluetoothAddress: String = bluetoothAdapter!!.address
-                val ref = db.collection("treatment").document("bl")
+                Log.d("debugApp", "diseases")
+                val ref = db.collection("treatment").document("users")
 
                 ref.get().addOnSuccessListener { documentSnapshot ->
                     Log.d("debugApp", documentSnapshot.toString())
                     if (documentSnapshot.exists()) {
-                        val myArray = documentSnapshot.get("address") as ArrayList<String>
-                        if(myArray.contains(bluetoothAddress)){
+                        val myArray = documentSnapshot.get("users") as ArrayList<String>
+                        if(myArray.contains("akasaudhan02@gmail.com")){
                             navController.popBackStack()
                         }else{
-                            myArray.add(bluetoothAddress)
-                            ref.set(hashMapOf("address" to myArray)).addOnSuccessListener {
+                            myArray.add("akasaudhan02@gmail.com")
+                            ref.set(hashMapOf("users" to myArray)).addOnSuccessListener {
                                 navController.popBackStack()
                             }
                         }
@@ -88,4 +87,6 @@ class TreatmentFragment : HCFragment(R.layout.fragment_treatment) {
             }
         }
     }
+
+
 }
